@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ano">
+        <item quantity="one">1 ano,</item>
+        <item quantity="other">%d anos,</item>
+    </plurals>
+    <plurals name="ano0">
+        <item quantity="one">1 ano e</item>
+        <item quantity="other">%d anos e</item>
+    </plurals>
+    <plurals name="mes">
+        <item quantity="one">1 mês e</item>
+        <item quantity="other">%d meses e</item>
+    </plurals>
+    <plurals name="semana">
+        <item quantity="one">1 semana</item>
+        <item quantity="other">%d semanas e</item>
+    </plurals>
+    <plurals name="dia">
+        <item quantity="one">1 dia</item>
+        <item quantity="other">%d dias</item>
+    </plurals>
+</resources>

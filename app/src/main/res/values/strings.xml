@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Calculadora de Tempo</string>
+    <string name="sobre">O aplicativo foi criado para facilitar o cálculo de tempo entre datas passadas, presentes e futuras.
+        \nFácil de usar, permite saber a quantidade de dias, semanas, meses e anos entre datas rapidamente.
+        \nBaseado em tutoriais da internet e outros aplicativos do gênero.
+        \nSuporta todas as versões do Android.
+        \n\nDesenvolvido por Paulo E S Mesquita.
+        \n\nVersão: %1$s\n\nContato: mskapps.brazil@gmail.com</string>
+
+</resources>

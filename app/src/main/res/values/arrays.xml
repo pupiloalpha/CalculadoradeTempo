@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_opcoes">
+        <item>Tempo decorrido entre datas</item>
+        <item>Dias entre datas</item>
+        <item>Semanas entre datas</item>
+        <item>Meses entre datas</item>
+        <item>Anos entre datas</item>
+    </string-array>
+</resources>

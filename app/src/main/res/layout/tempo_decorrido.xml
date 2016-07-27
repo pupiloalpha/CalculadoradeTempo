@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mskapp="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="10dp"
+    tools:context=".TempoDecorrido">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Data Inicial"
+        tools:ignore="HardcodedText" />
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        android:foregroundGravity="center"
+        android:foregroundTint="#FF0099CC"
+        tools:ignore="UnusedAttribute" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:text="Tempo decorrido entre as datas"
+        tools:ignore="HardcodedText" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF0099CC">
+
+        <TextView
+            android:id="@+id/text_resultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:text="Defina as datas para calcular"
+            android:textColor="#FFFFFFFF"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/ivMenu"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="icone"
+            android:paddingBottom="20dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:tint="#FFFFFFFF"
+            mskapp:srcCompat="@drawable/ic_more"
+            tools:ignore="HardcodedText" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Data Final"
+        tools:ignore="HardcodedText" />
+
+    <DatePicker
+        android:id="@+id/datePicker1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        android:foregroundGravity="center"
+        android:foregroundTint="#FF0099CC"
+        tools:ignore="UnusedAttribute" />
+
+</LinearLayout>

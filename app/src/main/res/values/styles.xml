@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Tema do aplicativo. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat">
+        <!-- Customizacoes do aplicativo. -->
+        <item name="colorPrimary">#FF0099CC</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#FF0099CC</item>
+        <item name="android:alertDialogTheme">@style/TemaDialogo</item>
+    </style>
+
+    <!-- Tema das caixas de diálogos -->
+    <style name="TemaDialogo" parent="@style/Theme.AppCompat.Dialog.Alert">
+        <!-- Customizacoes do aplicativo. -->
+        <item name="colorPrimary">#FF0099CC</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#FF0099CC</item>
+    </style>
+
+</resources>
